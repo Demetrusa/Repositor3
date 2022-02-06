@@ -11,11 +11,6 @@
       src="https://kit.fontawesome.com/bc3950d87f.js"
       crossorigin="anonymous"
     ></script>
-    <style>
-        .imgSize{
-            width: 	1.25rem;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -37,12 +32,30 @@
             <div class="leftLogo">
                 <i class="fas fa-camera"></i>
                 <h3>Album</h3>
-            </div>
-            <div class="burger">
-                <i class="fas fa-bars"></i>
-                <!-- <img src="./menu-bars-svgrepo-com.svg" alt="" class="imgSize"> -->
+                <div class="burgerDiv" id="hideMenu"> 
+                    <img src="./menu-bars-svgrepo-com.svg" alt="" class="imgSize">
+                </div>
             </div>
         </div>
     </header>
+    <main>
+        <div id="mainContentWrap">
+            <div class="childContent">
+                <div class="text-content">
+                    <h1>
+                        Album example
+                    </h1>
+                    <p>
+                        Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.
+                    </p>
+                <div class="btnStyle">
+                    <a href="#" id="btn1" class="firstBtn">Main call to action</a>
+                    <a href="#" id="btn2" >Secondary action</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
 </body>
 </html>
