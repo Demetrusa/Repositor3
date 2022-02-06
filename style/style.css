@@ -154,7 +154,7 @@ h1{
 .col{
 	width:421.328px ;
 	height: 378px;
-	background-color:brown ;
+	background-color:white ;
 	display: inline-block;
 	margin-top: 16px;
 	vertical-align: top;
@@ -169,10 +169,32 @@ h1{
 }
 .miniCol h3{
 	text-align: center;
+    padding-top: 100px;
+	padding-left: 170px
 }
 body{
 	background-color:rgb(248, 249, 250);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
 	background-color:rgb(220 227 233) ;
 	height: 148px;
