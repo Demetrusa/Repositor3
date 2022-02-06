@@ -145,9 +145,8 @@ h1{
 .container{
 	max-width: 1320px;
 	margin: 0 auto;
-	background-color: aqua;
 	padding: 0 12px 0 12px;
-	height: 1182px;
+	height: 1200px;
 	margin-top: 48px;
 	margin-bottom: 48px;
 }
@@ -158,13 +157,14 @@ h1{
 	display: inline-block;
 	margin-top: 16px;
 	vertical-align: top;
+	box-shadow: 0.5em 0.5em 1em;
+	margin-left: 5px;
 }
 .row{
 	margin-top: -16px -8px -16px -8px;
 }
 .miniCol{
 	height: 225px;
-	width: 419.328px;
 	background-color:rgb(85, 89, 92) ;
 }
 .miniCol h3{
@@ -175,25 +175,31 @@ h1{
 body{
 	background-color:rgb(248, 249, 250);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.colTextContent p{
+	width :387.328px;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: start;
+	margin: 16px 16px 16px 16px;
+}
+.colButton{
+	display: inline-block;
+	padding-left: 20px;
+}
+.btn3{
+	width: 29.531px;
+	height: 21px;
+	padding: 4px 8px 4px 8px;
+	margin: 1px;
+}
+.timerText {
+	display: inline-block;
+}
+.timerText p{
+	display: inline-block;
+	padding-left: 200px;
+}
 
 footer{
 	background-color:rgb(220 227 233) ;
@@ -224,4 +230,6 @@ footer{
 footer a{
 	color: rgb(10, 88, 202);
 }
-
+html{
+	scroll-behavior:smooth;
+}
