@@ -1,0 +1,53 @@
+header{
+	background-color: rgb(33, 37, 41);
+}
+.Wrapper{
+	max-width: 1320px;
+	background-color: aqua;
+	margin: 0 291.5px 0 291.5px;
+	padding: 0 12px 0 12px;
+
+}
+.leftWrap{
+	width: 746px;
+	background-color: aquamarine;
+	display: inline-block;
+	padding: 24px 12 24px 12;
+}
+.leftWrap h2{
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+	color: rgb(255, 255, 255);
+	line-height: 28.8px;
+}
+
+.leftWrap p{
+	font-size: 1rem;
+	color: rgb(108, 117, 125);
+	margin-bottom: 16px;
+	text-align:start;
+	line-height: 1.5rem;
+}
+.rightwrap{
+	width: 416px;
+	background-color: brown;
+	display: inline-block;
+	margin-left: 110px;
+	padding: 24px 12 24px 12px;
+	vertical-align: top;
+}
+.rightwrap div{
+	max-width: 125px;
+	color: rgb(255, 255, 255);
+}
+.rightwrap h2{
+	width: 1.5rem;
+	line-height: 28.8px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 8px;
+}
+.rightwrap a{
+	color: rgb(255, 255, 255);
+	font-size: 1rem;
+	line-height: 24px;
+}
